@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=99 format=3 uid="uid://c5smlolg1l1dx"]
+[gd_resource type="Theme" load_steps=101 format=3 uid="uid://c5smlolg1l1dx"]
 
 [ext_resource type="FontFile" uid="uid://dhsjug0gnmqg5" path="res://themes/eXP/styles/fonts/MS Sans Serif.ttf" id="1_kvprq"]
 [ext_resource type="StyleBox" uid="uid://dmt4rpqynea14" path="res://themes/eXP/styles/button/buttonStack-disabled.tres" id="2_8wuvw"]
@@ -45,7 +45,9 @@
 [ext_resource type="StyleBox" uid="uid://bju6svei8tqxe" path="res://themes/eXP/styles/tab/tabPanel.tres" id="42_h3oeo"]
 [ext_resource type="StyleBox" uid="uid://c26opnmlf6qyq" path="res://themes/eXP/styles/tab/tabButtonStack.tres" id="43_y62ss"]
 [ext_resource type="StyleBox" uid="uid://bipqob58lv82q" path="res://themes/eXP/styles/tab/tabButtonUnselectedStack.tres" id="44_00vlw"]
+[ext_resource type="StyleBox" uid="uid://brsphd6ta6wni" path="res://themes/eXP/styles/tab/tabFocused.tres" id="44_1rjmb"]
 [ext_resource type="Texture2D" uid="uid://ovmnp8sys8g3" path="res://themes/eXP/styles/scroll/royale/top-stepper.png" id="45_r0iqg"]
+[ext_resource type="StyleBox" uid="uid://ci8ik5ib32llv" path="res://themes/eXP/styles/tab/tabButtonSelectedStack.tres" id="46_4kmeu"]
 [ext_resource type="Texture2D" uid="uid://cyo8n3fg1jc3m" path="res://themes/eXP/styles/scroll/royale/top-stepper-prelight.png" id="46_4qlet"]
 [ext_resource type="Texture2D" uid="uid://cmbew61x5vj2r" path="res://themes/eXP/styles/scroll/royale/top-stepper-active.png" id="47_1f0ny"]
 [ext_resource type="Texture2D" uid="uid://bclmhaco4eo0r" path="res://themes/eXP/styles/scroll/royale/bottom-stepper-prelight.png" id="48_htf8h"]
@@ -373,8 +375,9 @@ TabContainer/colors/font_unselected_color = Color(0, 0, 0, 1)
 TabContainer/font_sizes/font_size = 11
 TabContainer/fonts/font = ExtResource("1_kvprq")
 TabContainer/styles/panel = ExtResource("42_h3oeo")
+TabContainer/styles/tab_focus = ExtResource("44_1rjmb")
 TabContainer/styles/tab_hovered = ExtResource("43_y62ss")
-TabContainer/styles/tab_selected = ExtResource("43_y62ss")
+TabContainer/styles/tab_selected = ExtResource("46_4kmeu")
 TabContainer/styles/tab_unselected = ExtResource("44_00vlw")
 TextEdit/colors/font_color = Color(0, 0, 0, 1)
 TextEdit/font_sizes/font_size = 11

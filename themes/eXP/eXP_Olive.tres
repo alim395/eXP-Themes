@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=92 format=3 uid="uid://yquhykuwmafe"]
+[gd_resource type="Theme" load_steps=94 format=3 uid="uid://yquhykuwmafe"]
 
 [ext_resource type="FontFile" uid="uid://dhsjug0gnmqg5" path="res://themes/eXP/styles/fonts/MS Sans Serif.ttf" id="1_486pf"]
 [ext_resource type="StyleBox" uid="uid://dmt4rpqynea14" path="res://themes/eXP/styles/button/buttonStack-disabled.tres" id="2_bcvcg"]
@@ -53,7 +53,9 @@
 [ext_resource type="Texture2D" uid="uid://c4q6gal0qcnxg" path="res://themes/eXP/styles/window/close.svg" id="43_fitjg"]
 [ext_resource type="Texture2D" uid="uid://cggs3fhqd7nmb" path="res://themes/eXP/styles/window/close-active.svg" id="44_ccoxa"]
 [ext_resource type="Texture2D" uid="uid://bpormrsrv7oo6" path="res://themes/eXP/styles/scroll/olive/grabberV-pressed-olive.png" id="44_csyaa"]
+[ext_resource type="StyleBox" uid="uid://brsphd6ta6wni" path="res://themes/eXP/styles/tab/tabFocused.tres" id="44_cy3pj"]
 [ext_resource type="StyleBox" uid="uid://cradxmtx5djdt" path="res://themes/eXP/styles/window/WindowOlive.tres" id="45_dg4nf"]
+[ext_resource type="StyleBox" uid="uid://ci8ik5ib32llv" path="res://themes/eXP/styles/tab/tabButtonSelectedStack.tres" id="46_csyaa"]
 [ext_resource type="Texture2D" uid="uid://dtxdigwhyoj4d" path="res://themes/eXP/styles/scroll/olive/top-stepper.png" id="47_m5f1l"]
 [ext_resource type="Texture2D" uid="uid://d2lhw3hxyy7dv" path="res://themes/eXP/styles/scroll/olive/top-stepper-prelight.png" id="48_4hyjb"]
 [ext_resource type="Texture2D" uid="uid://bi0oe2wa76wus" path="res://themes/eXP/styles/scroll/olive/top-stepper-active.png" id="49_qcclb"]
@@ -322,8 +324,9 @@ TabContainer/colors/font_unselected_color = Color(0, 0, 0, 1)
 TabContainer/font_sizes/font_size = 11
 TabContainer/fonts/font = ExtResource("1_486pf")
 TabContainer/styles/panel = ExtResource("34_qjc84")
+TabContainer/styles/tab_focus = ExtResource("44_cy3pj")
 TabContainer/styles/tab_hovered = ExtResource("35_0sc8l")
-TabContainer/styles/tab_selected = ExtResource("35_0sc8l")
+TabContainer/styles/tab_selected = ExtResource("46_csyaa")
 TabContainer/styles/tab_unselected = ExtResource("36_e7bah")
 TextEdit/colors/font_color = Color(0, 0, 0, 1)
 TextEdit/font_sizes/font_size = 11

@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=85 format=3 uid="uid://diofr3kthuaw"]
+[gd_resource type="Theme" load_steps=87 format=3 uid="uid://diofr3kthuaw"]
 
 [ext_resource type="FontFile" uid="uid://dhsjug0gnmqg5" path="res://themes/eXP/styles/fonts/MS Sans Serif.ttf" id="1_vvby4"]
 [ext_resource type="StyleBox" uid="uid://dmt4rpqynea14" path="res://themes/eXP/styles/button/buttonStack-disabled.tres" id="2_fgatk"]
@@ -45,9 +45,11 @@
 [ext_resource type="Texture2D" uid="uid://bopcbmv4mci08" path="res://themes/eXP/styles/progressBar/ProgressFill.png" id="41_1w3ty"]
 [ext_resource type="StyleBox" uid="uid://bju6svei8tqxe" path="res://themes/eXP/styles/tab/tabPanel.tres" id="42_ksa0b"]
 [ext_resource type="StyleBox" uid="uid://c26opnmlf6qyq" path="res://themes/eXP/styles/tab/tabButtonStack.tres" id="43_hq7lh"]
+[ext_resource type="StyleBox" uid="uid://brsphd6ta6wni" path="res://themes/eXP/styles/tab/tabFocused.tres" id="44_ft4mn"]
 [ext_resource type="StyleBox" uid="uid://bipqob58lv82q" path="res://themes/eXP/styles/tab/tabButtonUnselectedStack.tres" id="44_oo0a4"]
 [ext_resource type="Texture2D" uid="uid://dym321wp0gn14" path="res://themes/eXP/styles/scroll/top-stepper.png" id="45_fmrp7"]
 [ext_resource type="Texture2D" uid="uid://c2cg1f7e3pgwq" path="res://themes/eXP/styles/scroll/top-stepper-highlight.png" id="46_00hbn"]
+[ext_resource type="StyleBox" uid="uid://ci8ik5ib32llv" path="res://themes/eXP/styles/tab/tabButtonSelectedStack.tres" id="46_q4jew"]
 [ext_resource type="Texture2D" uid="uid://b73751dre15v8" path="res://themes/eXP/styles/scroll/top-stepper-pressed.png" id="47_mgem2"]
 [ext_resource type="Texture2D" uid="uid://cwu3ehfcusdc" path="res://themes/eXP/styles/scroll/bottom-stepper-highlight.png" id="48_myngu"]
 [ext_resource type="Texture2D" uid="uid://c0xyxi4vum1em" path="res://themes/eXP/styles/scroll/bottom-stepper-pressed.png" id="49_yuogp"]
@@ -266,8 +268,9 @@ TabContainer/colors/font_unselected_color = Color(0, 0, 0, 1)
 TabContainer/font_sizes/font_size = 11
 TabContainer/fonts/font = ExtResource("1_vvby4")
 TabContainer/styles/panel = ExtResource("42_ksa0b")
+TabContainer/styles/tab_focus = ExtResource("44_ft4mn")
 TabContainer/styles/tab_hovered = ExtResource("43_hq7lh")
-TabContainer/styles/tab_selected = ExtResource("43_hq7lh")
+TabContainer/styles/tab_selected = ExtResource("46_q4jew")
 TabContainer/styles/tab_unselected = ExtResource("44_oo0a4")
 TextEdit/colors/font_color = Color(0, 0, 0, 1)
 TextEdit/font_sizes/font_size = 11
