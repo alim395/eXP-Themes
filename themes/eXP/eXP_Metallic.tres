@@ -1,12 +1,11 @@
-[gd_resource type="Theme" load_steps=101 format=3 uid="uid://bmwkvlh7pnvu1"]
+[gd_resource type="Theme" load_steps=99 format=3 uid="uid://bmwkvlh7pnvu1"]
 
 [ext_resource type="FontFile" uid="uid://dhsjug0gnmqg5" path="res://themes/eXP/styles/fonts/MS Sans Serif.ttf" id="1_vlf8d"]
 [ext_resource type="StyleBox" uid="uid://dmt4rpqynea14" path="res://themes/eXP/styles/button/buttonStack-disabled.tres" id="2_bxplm"]
 [ext_resource type="Script" uid="uid://bpobhv17fo8i" path="res://addons/Elementum/Downloads/Class/StyleboxStack.gd" id="3_42gwx"]
+[ext_resource type="StyleBox" uid="uid://bibr1bpmpriui" path="res://themes/eXP/styles/button/buttonStack-focus.tres" id="3_jnlvx"]
 [ext_resource type="StyleBox" uid="uid://dt5hr60b1dhkd" path="res://themes/eXP/styles/button/button-border.tres" id="4_jnlvx"]
 [ext_resource type="StyleBox" uid="uid://b1pqq85k5u6r5" path="res://themes/eXP/styles/button/button-active.tres" id="5_jp2e6"]
-[ext_resource type="StyleBox" uid="uid://c2x6j1od2107i" path="res://themes/eXP/styles/button/button-focus.tres" id="6_hr2tm"]
-[ext_resource type="StyleBox" uid="uid://mck76q7ooihg" path="res://themes/eXP/styles/button/FocusedBorder.tres" id="7_bxplm"]
 [ext_resource type="StyleBox" uid="uid://cw2xsb62k3uuu" path="res://themes/eXP/styles/button/button-hover.tres" id="7_gtnpm"]
 [ext_resource type="StyleBox" uid="uid://c8o071y735fk3" path="res://themes/eXP/styles/button/button-pressed.tres" id="8_jnlji"]
 [ext_resource type="StyleBox" uid="uid://pt0yjtg34cdu" path="res://themes/eXP/styles/button/buttonStack-normal.tres" id="9_h65ob"]
@@ -67,17 +66,6 @@
 [ext_resource type="Texture2D" uid="uid://bdpnbcv6bhifd" path="res://themes/eXP/styles/window/MetallicBorder.png" id="62_s51d8"]
 [ext_resource type="Texture2D" uid="uid://c74l8bo6jakl2" path="res://themes/eXP/styles/window/WindowsTitleMetallicUnfocused.png" id="63_srsq6"]
 [ext_resource type="Texture2D" uid="uid://bjyo53kyp724p" path="res://themes/eXP/styles/window/MetallicBorderUnfocused.png" id="64_uub0q"]
-
-[sub_resource type="StyleBox" id="StyleBox_xxfgw"]
-resource_local_to_scene = false
-resource_name = ""
-content_margin_left = -1.0
-content_margin_top = -1.0
-content_margin_right = -1.0
-content_margin_bottom = -1.0
-script = ExtResource("3_42gwx")
-style_boxes = Array[StyleBox]([ExtResource("4_jnlvx"), ExtResource("5_jp2e6"), ExtResource("6_hr2tm"), ExtResource("7_bxplm")])
-metadata/_custom_type_script = "uid://bpobhv17fo8i"
 
 [sub_resource type="StyleBox" id="StyleBox_f2ya5"]
 resource_local_to_scene = false
@@ -287,7 +275,7 @@ Button/colors/font_pressed_color = Color(0, 0, 0, 1)
 Button/font_sizes/font_size = 11
 Button/fonts/font = ExtResource("1_vlf8d")
 Button/styles/disabled = ExtResource("2_bxplm")
-Button/styles/focus = SubResource("StyleBox_xxfgw")
+Button/styles/focus = ExtResource("3_jnlvx")
 Button/styles/hover = SubResource("StyleBox_f2ya5")
 Button/styles/hover_pressed = SubResource("StyleBox_tiy84")
 Button/styles/normal = ExtResource("9_h65ob")
