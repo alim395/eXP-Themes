@@ -23,6 +23,7 @@ Download the [latest release](https://github.com/alim395/eXP-Themes/releases/lat
 Clone the repo with the following command:
 
 ```
+git lfs install --skip-repo
 git clone https://github.com/alim395/eXP-Themes.git
 ```
 
