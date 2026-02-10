@@ -14,7 +14,7 @@ Feel free to contribute and adapt to your own projects, and would appreciate the
 
 ## Method 1 - Release:
 
-Download the [latest release](https://github.com/alim395/eXP-Themes/releases), and copy the folders to the root of you project.
+Download the [latest release](https://github.com/alim395/eXP-Themes/releases/latest), and copy the folders to the root of you project.
 
 **OR**
 
