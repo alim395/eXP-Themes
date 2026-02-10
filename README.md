@@ -12,18 +12,18 @@ Feel free to contribute and adapt to your own projects, and would appreciate the
 
 # Usage
 
-## Method 1 - Git Clone:
+## Method 1 - Release:
 
-Either clone the repo with the following command:
+Download the [latest release](https://github.com/alim395/eXP-Themes/releases), and copy the folders to the root of you project.
+
+**OR**
+
+## Method 2 - Git Clone:
+
+Clone the repo with the following command:
 
 ```
 git clone https://github.com/alim395/eXP-Themes.git
 ```
 
 Then copy the "addons" and "themes" folder to the root of your project.
-
-**OR**
-
-## Method 2 - Release:
-
-Download the [latest release](https://github.com/alim395/eXP-Themes/releases), and copy the folders to the root of you project.
