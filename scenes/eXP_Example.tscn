@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://mnspckdtwpby"]
+[gd_scene load_steps=12 format=3 uid="uid://mnspckdtwpby"]
 
 [ext_resource type="Theme" uid="uid://c5smlolg1l1dx" path="res://themes/eXP/eXP_Royale.tres" id="1_3kf0c"]
 [ext_resource type="Theme" uid="uid://bmwkvlh7pnvu1" path="res://themes/eXP/eXP_Metallic.tres" id="1_fh82t"]
@@ -9,6 +9,7 @@
 [ext_resource type="ButtonGroup" uid="uid://dmu68xb17mc3q" path="res://themes/eXP/styles/button/RadioGroup2.tres" id="3_1026l"]
 [ext_resource type="Theme" uid="uid://yquhykuwmafe" path="res://themes/eXP/eXP_Olive.tres" id="3_lwqo1"]
 [ext_resource type="Theme" uid="uid://ck4ke6iweo4ss" path="res://themes/eXP/eXP_Embedded.tres" id="4_lwqo1"]
+[ext_resource type="Theme" uid="uid://c6pjrcvihsuke" path="res://themes/eXP/eXP_RoyaleDark.tres" id="7_ont2m"]
 [ext_resource type="Texture2D" uid="uid://di14wsk1nc73h" path="res://Bliss.png" id="8_im1ju"]
 
 [node name="Control" type="Control" node_paths=PackedStringArray("themeButton")]
@@ -20,7 +21,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_x75oi")
 script = ExtResource("2_1026l")
-themes = Array[Theme]([ExtResource("1_x75oi"), ExtResource("3_lwqo1"), ExtResource("4_lwqo1"), ExtResource("1_fh82t"), ExtResource("1_3kf0c"), ExtResource("1_vcnan")])
+themes = Array[Theme]([ExtResource("1_x75oi"), ExtResource("3_lwqo1"), ExtResource("4_lwqo1"), ExtResource("1_fh82t"), ExtResource("1_3kf0c"), ExtResource("7_ont2m"), ExtResource("1_vcnan")])
 themeButton = NodePath("ThemesButton")
 
 [node name="Background" type="TextureRect" parent="."]

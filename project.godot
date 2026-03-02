@@ -26,10 +26,6 @@ window/stretch/mode="canvas_items"
 
 project/assembly_name="eXperienceTheme"
 
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/Elementum/plugin.cfg")
-
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
