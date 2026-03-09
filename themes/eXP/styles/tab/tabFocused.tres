@@ -1,0 +1,29 @@
+[gd_resource type="StyleBox" script_class="StyleboxStack" load_steps=4 format=3 uid="uid://brsphd6ta6wni"]
+
+[ext_resource type="Script" uid="uid://bpobhv17fo8i" path="res://addons/Elementum/Downloads/Class/StyleboxStack.gd" id="1_bt5dx"]
+[ext_resource type="Texture2D" uid="uid://dwb2l8a4i7kp8" path="res://themes/eXP/styles/button/Focused.png" id="4_5sn8u"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_c8vdm"]
+texture = ExtResource("4_5sn8u")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+expand_margin_left = 1.0
+expand_margin_top = 2.0
+expand_margin_right = 1.0
+expand_margin_bottom = 2.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+region_rect = Rect2(0, 0, 15, 15)
+
+[resource]
+resource_local_to_scene = false
+resource_name = ""
+content_margin_left = 12.0
+content_margin_top = 1.0
+content_margin_right = 12.0
+content_margin_bottom = 3.0
+script = ExtResource("1_bt5dx")
+style_boxes = Array[StyleBox]([SubResource("StyleBoxTexture_c8vdm")])
+metadata/_custom_type_script = "uid://bpobhv17fo8i"
